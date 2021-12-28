@@ -471,7 +471,7 @@ div#notebook {
 }
 #notebook-container {
  padding: 13px 2px;
- background-color: rgb(58, 10, 46);
+ background-color: rgba(26,53,91,255);
  min-height: 0px;
  box-shadow: none;
  width: 100%;
@@ -1935,7 +1935,7 @@ code {
  font-family: monospace, monospace;
  font-size: 16pt !important;
  line-height: 170% !important;
- color: #b0bdd7;
+ color: #FF0000;
  background: #252e3a;
  background-color: #252e3a;
  border-color: #252e3a;
@@ -1961,7 +1961,8 @@ pre {
  border-radius: 2px;
 }
 div.rendered_html {
- color: #b0bdd7;
+ color: #b0bdd7
+;
 }
 .rendered_html * + ul {
  margin-top: .4em;
@@ -1991,7 +1992,7 @@ div.text_cell_render code {
  font-family: monospace, monospace;
  font-size: 16pt !important;
  line-height: 170% !important;
- color: #b0bdd7;
+ color: ###b0bdd7;
  background: #1a2028;
  background-color: #1a2028;
  max-width: 80%;
@@ -2239,7 +2240,7 @@ div.widget-label {
  color: #0080aa;
 }
 div.cell.text_cell a.anchor-link:link {
- font-size: inherit;
+ font-size: 0;
  text-decoration: none;
  padding: 0px 20px;
  visibility: none;
@@ -15978,6 +15979,7 @@ h6:hover .jp-InternalAnchorLink {
 .jp-RenderedHTMLCommon > *:last-child {
   margin-bottom: 0.5em;
 }
+
 
 /*-----------------------------------------------------------------------------
 | Copyright (c) Jupyter Development Team.
